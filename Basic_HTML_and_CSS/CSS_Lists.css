@@ -1,0 +1,23 @@
+ol {
+	list-style-type: disc;
+	color: orange;
+}
+
+ul {
+	list-style-type: upper-roman;
+	color: #6c3c96;
+}
+
+h2:after {
+	content: ' \2042';
+	
+}
+
+h2:before {
+	content: '\2614';
+}
+
+h2 {
+	text-alignment: center;
+	text-shadow: 3px 3px #bd4bb1;
+}
