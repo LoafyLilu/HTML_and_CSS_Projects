@@ -5,18 +5,16 @@
 body {
   margin: 0;
   background-image: url("https://wallpaperaccess.com/full/31367.jpg");
-  color: #00000;
-  content-alight: center;
+  color: #000000;
+  align-content: center;
 }
 
-/* Style the header */
 .header {
   padding: 20px;
   text-align: center;
   color: #ffffff;
 }
 
-/* Style the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: #663399;
