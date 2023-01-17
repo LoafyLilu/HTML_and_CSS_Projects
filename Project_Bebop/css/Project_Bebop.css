@@ -1,4 +1,104 @@
-img {
-	max-width: 75px;
-	max-height: 150px;
+* {
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  background-image: url("https://wallpaperaccess.com/full/31367.jpg");
+  color: #00000;
+  content-alight: center;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #663399;
+}
+
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #7B68EE;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  color: #ffffff;
+  
+}
+
+.row::after {
+	content:"";
+	clear: both;
+	display: table;
+}
+
+
+.column img {
+	width: 125px;
+	height: auto;
+}
+
+.column2 {
+  float: left;
+  width: 33%;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.column2 img {
+	width: 200px;
+	height: auto;
+}
+
+.contact {
+	text-align: center;
+	color:#ffffff;
+}
+
+.content {
+	text-align: center;
+	color:#ffffff;
+}
+
+.footer {
+	background-color: #663399;
+	color: #ffffff;
+	text-align: center;
+}
+
+h1 {
+	color: #FFD700;
+}
+
+h2 {
+	color: #FFD700;
+}
+h3 {
+	color: #FFD700;
+}
+
+input[type=text] {
+	background-color: #000000;
+}
+
+	
