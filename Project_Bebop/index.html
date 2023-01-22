@@ -1,175 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Welcome to the Bebop</title>
-		<meta charset="utf-8">
-	</head>
 
-<script> 
-function ed_laugh() {
-window.open("./images/ed_laugh.gif");
-}
-</script>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to the Bebop!</title>
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/animations.css">
+</head>
 
-	<body>
-	<link rel = "stylesheet" type = "text/css" href="./css/Project_Bebop.css">
-<!-- HEADER AND NAV -->
-<div class="header">
-  <h1>3 , 2 , 1, Let's Jam!!</h1>
-</div>
+<body>
 
-<div>
-<div class="topnav">
- 
-						<a href="#home" id="link"><li>Home</li></a>
-						<a href="#crew" id="link"><li>Crew</li></a>
-						<a href="#gear" id="link"><li>Gear</li></a>
-						<a href="#contact" id="link"><li>Contact</li></a>
-					
-</div>
-</div>
-<!-- END HEADER AND NAV -->
+    <!-- NAV -->
+    <div class="wrap">
+        <div class="menu-container">
+            <ul class="menu">
+                <a href="#home"><li>HOME</li></a>
+                <a href="#gallery"><li>Crew&Ships</li></a>
+                <a href="#contact"><li>CONTACT</li></a>
+            </ul>
+        </div>
+    </div>
+    <!-- END NAV-->
 
-<!-- VIDEO -->
+    <!-- HOME-->
+    <div id="home">
+        <div class="container">
+            <div class="text-center">
+                <span class="head-main">Welcome to the Bebop</span>
+                <center><iframe width="560" height="315" src="https://www.youtube.com/embed/EL-D9LrFJd4" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </center>
+            </div>
+        </div>
+    </div>
+    <!-- END HOME-->
 
-<div id="home">
-	<center><iframe width="560" height="315" src="https://www.youtube.com/embed/EL-D9LrFJd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-		</center>
-		</div>
-		<br><br>
-		
-		<!-- VIDEO -->
+    <!-- GALLERY-->
+    <section id="gallery">
+        <div class="container">
+            <h1>Crew & Ships</h1>
+            <div class="flex-container">
 
-<!-- PHOTO-CONTAINER 1-->
-<div id="crew">
-					<div>
-					<h1>Crew</h1>
-					</div>
-							<div class="row">
-							<div class="column">
-	
-								<img src="./images/spike_crew.jpg" alt="Spike RetroWave">
-								<h3>Spike Spiegle</h3>
-								<p>Known for running with the Syndacate, Spike has left violent life of crime,
-								for a slightly less violent life of moral ambiguity</p>
-							</div>
-<!-- END PHOTO-CONTAINER 1-->
-						
-						<!-- PHOTO-CONTAINER 2-->
-						<div class="column">
-								<img src="./images/faye_crew.jpg" alt="Faye RetroWave">
-								
-								<h3>Faye Valentine</h3>
-								<P>As a woman with no past, Faye stumbles into her future. Foul mouthed, self centered and sassy, she makes the best of her time on the Bebop.</p>
-								
-						</div>
-						<!-- END PHOTO-CONTAINER 2-->
-						
-						<!-- PHOTO-CONTAINER 3-->
-						<div class="column">
-								<img src="./images/jett_crew.jpg" alt="Jett RetroWave">
-								
-								<h3>Jett Black</h3>
-								<p>Jett left his former life in law enforcement after being framed by his partner for murder. Jett keeps his sense of justice close at hand, and cares for the crew like a father</p>
-							
-							</div>
-						<!-- END PHOTO-CONTAINER 3-->
-						
-						<!-- PHOTO-CONTAINER 4-->
-						<div class="column">
-								<img src="./images/edward_crew.jpg" alt="Ed RetroWave">
-								
-								<h3>Edward Wong Hau Pepelu Tivrusky IV</h3>
-								<p>Ed is an oddball escapee from a scientific research center for hyper intelligent kids. They command all hacking operations on the bebop. And they are the -best- at noodle dances.</p>
-								
-							</div>
-						
-						<!-- END PHOTO-CONTAINER 4-->
-						
-						
-					</div>
-				</div>
-				
-				<!-- GEAR -->
-			<div id="gear">
-				<div>
-					<h1>Gear</h1>
-				</div>
-				
-				<!-- PHOTO-CONTAINER 5-->
-					<div class="row">
-						<div class="column2">
-								<img src="./images/bebop_ship.jpg" alt="The Bebop">
-								<h3>The Bebop</h3>
-								<p>The Bebop is the primary carrier for the crew. The Bebop houses each members ship, as well as living quarters and command decks</p>
-						</div>
-						<!-- END PHOTO-CONTAINER 5-->
-						
-				<!-- PHOTO-CONTAINER 6-->
-						<div class="column2">
-								<img src="./images/swordfish_ship.jpg" alt="The Swordfish">
-								<h3>The Swordfish</h3>
-								<p>Spikes personal ship. The Swordfish is the fastest and most nimble of three</p>
-						</div>
-						<!-- END PHOTO-CONTAINER 6-->
-						
-				<!-- PHOTO-CONTAINER 7-->
-						<div class="column2">
-								<img src="./images/red_tail_ship.jpg" alt="The Red Tail">
-								<h3>The Red Tail</h3>
-								<p>Fayes personal ship. Kind of a joke. Like a floating bubble with pea shooters</p>
-						</div>
-						</div>
-						<!-- END PHOTO-CONTAINER 7-->
-					
-			<!-- END GEAR -->
-			
-			<!-- CONTACT -->
-			<div id="contact">
-					<div class="content">
-							<p>
-							<h2>Got a bounty? Looking for a gig?
-						</h2>
-								<em>Send us a message and we'll get ya going</em>
-							</p>
-							<div>
-								<form action="" method="post">
-									<input class="contact" type="text" value="First Name">
-									<input class="contact" type="text" value="Current Ship">
-									<input class="contact" type="text" value="Current Planet"><br>
-									<div class="form-spacer">
-										<br><label class="terms">Terms and Conditions</label>
-								</form>
-								<form>
-								<div>
-									<label>Do you object to loud noises, strange smells, hyperintelligent kids/pets, cramped living spaces?</label><br><br>
-									<input type="button" onclick="ed_laugh()" target="_blank" value="Yes">
-									<input type="button" onclick="" value="No">
-								</div>
-								</form>
-						</div>
-				</div>
-				<!-- END CONTACT -->
-				
-				<!-- FOOTER -->
-				<div class="content">
-						<article>
-							<h2>Voted most 'adequite' bounty crew by Big Shot 2069-2071
-							</h2>
-							<p>Big Shot is your local source for the best bounty gigs in the system!<br>The crew at the Bebop has held a reputation 3 years running
-							</p>
-						</article>
-				</div>
-						<div class="footer">
-						<p>Reception Hours<time> 22:00</time> to <time>04:00</time></p>
-						<br>Created by LoafyLilu &nbsp;|&nbsp; 2022<br>
-						</div>
-				</div>
-				<!-- END FOOTER -->
+                <!-- Photo container 1 -->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/spike_crew.jpg" alt="">
+                        <div class="photo-overlay">
+                				<h3 class="white-head">Spike Spiegle</h3>
+                            <p>Just a simple bounty hunter</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Photo container 1 -->
 
-		
+                <!-- Photo container 2 -->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/faye_crew.jpg" alt="">
+                        <div class="photo-overlay">
+                				<h3 class="white-head">Faye Valentine</h3>
+                            <p>A woman with no past, making her own future</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Photo container 2 -->
 
+                <!-- Photo container 3 -->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/jett_crew.jpg" alt="">
+                        <div class="photo-overlay">
+                				<h3 class="white-head">Jett Black</h3>
+                            <p>Head pilot and father figure</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Photo container 3 -->
 
+                <!-- Photo container 4 -->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/edward_crew.jpg" alt="">
+                        <div class="photo-overlay">
+                				<h3 class="white-head">"Ed"</h3>
+                            <p>Head hacker and noodle dance extrodinaire</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Photo container 4 -->
+
+                <!-- Photo container 5 -->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/bebop_ship.jpg" alt="">
+                        <div class="photo-overlay">
+                            <h3 class="white-head">"The Bebop"</h3>
+                            <p>Main carrier, piloted by Jett</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Photo container 5 -->
+
+                <!-- Photo container 6 -->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/red_tail_ship.jpg" alt="">
+                        <div class="photo-overlay">
+                            <h3 class="white-head">"The Red Tail"</h3>
+                            <p>Fayes personal ship. Kind of a joke. Like a floating bubble with pea shooters</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Photo container 6 -->
+
+                <!-- Photo container 7 -->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./images/swordfish_ship.jpg" alt="">
+                        <div class="photo-overlay">
+                            <h3 class="white-head">"The Swordfish"</h3>
+                            <p>Spikes personal ship. The Swordfish is the fastest and most nimble of three</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Photo container 7 -->
+
+            </div>
+        </div>
+    </section>
+    <!-- END GALLERY-->
+
+    <!-- RSVP-->
+    <section id="contact">
+        <div class="container">
+            <div class="heading-padding">
+                <h1 class="heading-padding">Contact</h1>
+                <div class="reservation">
+                    <h2>
+                        <span> Got a gig to share? Need a bounty?</span>
+                        <br/>Send us a message!
+                    </h2>
+                    <p class="rsvp-text">
+                        Basic contact info
+                    </p>
+                    <div class="form-rsvp">
+                        <form action="" method="post">
+                            <input class="rsvp" type="text" value="" placeholder="Name">
+                            <input class="rsvp" type="text" value="" placeholder="Ship">
+                            <input class="rsvp" type="text" value="" placeholder="Planet">
+                            <input class="rsvp" type="text" value="" placeholder="BH">
+                            <div class="form-spacer">
+                                <label class="term">Terms and Conditions</label>
+                            </div>
+                            <div class="submit">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END RSVP-->
+
+    <!-- FOOTER -->
+    <div id="footer">
+        Created by &nbsp;LoafyLilu &copy; 2023
+    </div>
+    <!-- END FOOTER-->
 </body>
-</html>
 
+</html>
