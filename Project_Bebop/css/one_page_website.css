@@ -1,0 +1,11 @@
+/*-- This CSS will modify the style of the form input, 
+superceeding the previously linked css file--*/
+.reservation input[type="text"] {
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 66%;
+    border-radius: 2px;
+    margin: 5px 10px;
+    border: 5px solid #3f85f7;
+}
+
