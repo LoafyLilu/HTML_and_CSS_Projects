@@ -1,5 +1,4 @@
 .row>.column {
-    padding: 0 8px;
     text-align: center;
 }
 
@@ -9,10 +8,14 @@
     clear: both;
 }
 
+.row {
+    width: 100%;
+}
+
 /* Create four equal columns that floats next to eachother */
 .column {
     float: left;
-    width: 20%;
+    width: 25%;
     text-align: center;
 }
 
@@ -20,12 +23,12 @@
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 101;
     padding-top: 10px;
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 110%;
     overflow:auto;
     background-color: black;
 }
@@ -122,8 +125,8 @@
 
 img.demo {
     opacity: 0.6;
-    width: 100px;
-    height: 150px;
+    width: 75%;
+    height: 75%;
 }
 
 .active,

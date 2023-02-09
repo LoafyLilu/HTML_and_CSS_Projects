@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="stylesheet" href="./css/one_page_website.css">
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <title>Welcome to the Bebop!</title>
+
+    <script src="./JS/lightbox.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <div class="wrap">
+        <div class="menu-container">
+            <ul class="menu">
+                <a href="#home">
+                    <li>HOME</li>
+                </a>
+                <a href="#gallery">
+                    <li>Crew&Ships</li>
+                </a>
+                <a href="#contact">
+                    <li>CONTACT</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <!-- END NAV-->
+
+    <!-- HOME-->
+    <div id="home">
+        <div class="container">
+            <div class="text-center">
+                <span class="head-main">Welcome to the Bebop</span>
+                <center><iframe width="560" height="315" src="https://www.youtube.com/embed/EL-D9LrFJd4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </center>
+            </div>
+        </div>
+    </div>
+    <!-- END HOME-->
+
+    <!-- GALLERY-->
+    <section id="gallery">
+                <!-- Photo Lightbox-->
+                <!-- Images used to open the lightbox -->
+                <div class="row">
+                    <div class="column">
+                        <img src="./images/spike_thumbnail.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="./images/faye_thumbnail.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="./images/jett_thumbnail.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="./images/edward_thumbnail.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    </div>
+                </div>
+                
+                <!-- The Modal/Lightbox -->
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 4</div>
+                            <img src="./images/spike_crew.jpg" style="width:75%">
+                        </div>
+                
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 4</div>
+                            <img src="./images/faye_crew.jpg" style="width:100%">
+                        </div>
+                
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 4</div>
+                            <img src="./images/jett_crew.jpg" style="width:100%">
+                        </div>
+                
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 4</div>
+                            <img src="./images/edward_crew.jpg" style="width:100%">
+                        </div>
+                
+                        <!-- Next/previous controls -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                        <!-- Caption text -->
+                        <div class="caption-container">
+                            <p id="caption"></p>
+                        </div>
+                
+                        <!-- Thumbnail image controls -->
+                        <div class="column">
+                            <img class="demo" src="./images/spike_thumbnail.jpg" onclick="currentSlide(1)" alt="Spike Speigel">
+                        </div>
+                
+                        <div class="column">
+                            <img class="demo" src="./images/faye_thumbnail.jpg" onclick="currentSlide(2)" alt="Faye Valentine">
+                        </div>
+                
+                        <div class="column">
+                            <img class="demo" src="./images/jett_thumbnail.jpg" onclick="currentSlide(3)" alt="Jett Black">
+                        </div>
+                
+                        <div class="column">
+                            <img class="demo" src="./images/edward_thumbnail.jpg" onclick="currentSlide(4)" alt="Ed">
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- End Photo Lightbox -->
+
+            
+    </section>
+    <!-- END GALLERY-->
+
+    <!-- RSVP-->
+    <section id="contact">
+        <div class="container">
+            <div class="heading-padding">
+                <h1 class="heading-padding">Contact</h1>
+                <div class="reservation">
+                    <h2>
+                        <span> Got a gig to share? Need a bounty?</span>
+                        <br />Send us a message!
+                    </h2>
+                    <p class="rsvp-text">
+                        Basic contact info
+                    </p>
+                    <div class="form-rsvp">
+                        <form action="" method="post">
+                            <input class="rsvp" type="text" value="" placeholder="Name">
+                            <input class="rsvp" type="text" value="" placeholder="Ship">
+                            <input class="rsvp" type="text" value="" placeholder="Planet">
+                            <input class="rsvp" type="text" value="" placeholder="BH">
+                            <div class="form-spacer">
+                                <label class="term">Terms and Conditions</label>
+                            </div>
+                            <div class="submit">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END RSVP-->
+
+    <!-- FOOTER -->
+    <div id="footer">
+        Created by &nbsp;LoafyLilu &copy; 2023
+    </div>
+    <!-- END FOOTER-->
+
+    
+</body>
+
+</html>
